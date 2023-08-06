@@ -1,33 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="styles.css">
-  
-  <title>Order summary card | coded by Bart Erkamp</title>
-</head>
-
-<body>
-
-  Order Summary
-
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
-
-  Annual Plan
-  $59.99/year
-
-  Change
-
-  Proceed to Payment
-  Cancel Order
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"/>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Order summary card | coded by Bart Erkamp</title>
+  </head>
+  <body>
+    <main class="wrapper">
+      <section class="summary">
+        <div class="summary__hero">
+          <object class="summary__illustration" type="image/svg+xml" data="./images/illustration-hero.svg"></object>
+        </div>
+        <h1 class="summary__heading">Order Summary</h1>
+        <p class="summary__text">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+        <div class="summary__billing">
+          <object class="sumary__icon" type="image/svg+xml" data="./images/icon-music.svg"></object>
+          <div class="summary__plan-wrapper">
+            <h2 class="summary__suheading">Annual Plan</h2>
+            <span class="summary__price">$59.99/year</span>
+            <a href="" class="sumary__change-link">Change</a>
+          </div>
+          <button class="btn btn--primary" type="button">Proceed to Payment</button>
+          <button class="btn btn--secondary" type="button">Cancel Order</button>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
