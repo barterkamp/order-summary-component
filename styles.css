@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'RedHatDisplay-Medium';
+    font-weight: 500;
+    src: url('./assets/fonts/RedHatDisplay-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'RedHatDisplay-Bold';
+    font-weight: 700;
+    src: url('./assets/fonts/RedHatDisplay-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'RedHatDisplay-Black';
+    font-weight: 900;
+    src: url('./assets/fonts/RedHatDisplay-Black.ttf') format('truetype');
+}
